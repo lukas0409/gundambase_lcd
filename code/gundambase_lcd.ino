@@ -1,8 +1,10 @@
 /*
+  건담 격납고 윗부분에 사용되는 LCD 코드
 
+  - 자세한 설명은 동봉된 한글 파일 참조
 */
 
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h> // 
 #include <Wire.h> // LCD 2004 12C
 
 LiquidCrystal_I2C lcd (0x27,20,4); // 접근주소: 0x3F or 0x27
